@@ -1,7 +1,11 @@
 ## Getting Started
-Cardano Wallet Explorer
+Cardano Wallet Explorer - Next.js and Blockfrost API
 
 First, run the development server:
+
+```bash
+npm install
+```
 
 ```bash
 npm run dev
