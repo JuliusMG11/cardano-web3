@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  env: {
+    projectId: 'mainnetRUrPjKhpsagz4aKOCbvfTPHsF0SmwhLc',
+  },
 };
 
 export default nextConfig;

@@ -1,6 +1,6 @@
 
 const API_URL = 'https://cardano-mainnet.blockfrost.io/api/v0';
-const PROJECT_ID = 'mainnetRUrPjKhpsagz4aKOCbvfTPHsF0SmwhLc';
+const PROJECT_ID = process.env.projectId || '';
 
 import { Address, AssetDetails, TokenDetails } from '@/types/index';
 

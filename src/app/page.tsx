@@ -96,8 +96,7 @@ export default function Home() {
           </div>
           <div className="mb-16">
               <WalletOverview 
-                address={address} 
-                lovelaceBalance={lovelaceBalance} 
+                address={address}
                 isLoading={isLoading} 
                 stakeAddress={stakeAddress}
                 stakeBalance={stakeBalance}
